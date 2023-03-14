@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+<link rel="shortcut icon" href="./imagens/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="contato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <body>
+        <div id="principal">
+            <nav>
+                <p class="nome_pagina">Tecnos<span class="ciente">ciente</span></p>
+                <ul id="lista_menu">
+                    <li class="menu"><a href="index.html" class="nome_menu">Home</a></li>
+                    <li class="menu"><a href="#" class="nome_menu">Quem somos</a></li>
+                    <li class="menu"><a href="serviços.html" id="serviços" class="nome_menu" target="_self">Serviços</a></li>
+                    <li class="menu"><a href="contato.html" class="nome_menu" target="_self">Contato</a></li>
+                </ul>
+            </nav>
+            <div id="mensagem_inicial">
+                <p class="titulo">TECNOS<span class="ciente">CIENTE</span></p>
+                <P id="sub_titulo">Contato</P>
+            </div>
+        </div>
+        <section>
+
+            <div id="area_formulario">
+                <div id="mensagem_contato">
+                    <h1>ENTRE EM CONTATO E AGENDE SUA COLETA</h1>
+                    <P>Agradeçemos se interesse por nossos serviços. Por favor preencha o formulário abaixo para entrarmos em contato de você</P>
+                </div>
+                <div id="formulario">
+                    <form>
+                        <div class="area_formulario">
+                        <label for="nome">Nome</label><br>  
+                        <input type="name" id="nome" class="entrada" required><br>
+                        </div>
+
+                        <div class="area_formulario">
+                        <label for="email">E-mail</label><br>
+                        <input type="email" id="email" class="entrada" required><br>
+                        </div>
+
+                        <div class="area_formulario">
+                        <label for="telefone">Telefone</label><br>
+                        <input type="tel" id="telefone"  class="entrada" required pattern="[0-9]{2} - [0-9]{5} - [0-9]{4} " placeholder="(dd) xxxxx-xxxx"><br>
+                        </div>
+
+                        <div class="area_formulario">
+                        <label for="area_mensagem">Digite sua mensagem </label><br>
+                        <textarea name="mensagem" id="area_mensagem" cols="70" rows="10"></textarea>
+                        </div>
+
+                        <button type="button">Enviar formulário</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </section>
+        <section id="visita">
+            <div id="conhecer">
+                <p>Venha nos visitar e conhecer mais sobre o projeto</p>
+            </div>
+            <div id="iframe">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.7950690100097!2d-46.87203064893717!3d-23.467855484654503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94 cf0304bc1156d5%3A0x675d40c6a3089cc3!2sUNIP%20-%20Alphaville!5e0!3m2!1spt-BR!2sbr!4v1653398341307!5m2!1spt-BR!2sbr"
+                width="1345" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" id="iframe_position">
+    
+                </iframe>
+            </div>
+        </section>
+    
+        <footer>
+            <p>Desenvolvido por Lucas Lima Porto</p>
+        </footer>
+</body>
+</html>

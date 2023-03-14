@@ -1,0 +1,246 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+}
+
+#btn {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    height: 60px ;
+    width: 60px;
+    right: 25px;
+    bottom: 20px;
+    border-radius: 100%;
+}
+
+#btn > img {
+    position: relative;
+    height: 55px;
+    width: 55px;
+    left:2px;
+    top: 2px;
+    
+}
+
+#principal {
+    background-color: grey;
+    display: block;
+    box-sizing: 100%;
+    height: 100vh;
+    width: 98.75vw;
+    background-image: url(./imagens/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nome_pagina {
+    font-size: 40px;
+    font-weight: bolder;
+    display: inline;
+    padding-left: 5%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#lista_menu {
+    display:inline-block;
+    position: flex;
+    padding-left: 35%;
+    padding-top: 50px;
+}
+
+.nome_menu:hover {
+    color: darkgreen;
+    transition: .4s ;
+}
+
+.menu {
+    list-style: none;
+    display: inline;
+    margin: 20px;
+    font-size: 18px;    
+}
+
+
+#mensagem_inicial {
+    display: block;
+    position: relative;
+    top: 22%;
+    padding-left: 5%;
+}
+
+.ciente {
+    color: darkgreen;
+}
+
+
+.titulo {
+    font-size: 70px;
+    
+}
+
+#sub_titulo {
+    position: relative;
+    display: inline-block;
+    left: 1%;
+    font-size: 50px;
+
+}
+
+.intro {
+    padding: 10px;
+    font-size: 25px;
+}
+
+section{
+    display: block;
+    background-color: rgb(66, 66, 66);
+    position: flex;
+    width: 98.75vw;
+    height: 100vh
+
+}
+
+#artigo {
+    width: 500px;
+    display: inline-block;
+    position: relative;
+    left: 15%;
+    top: 12%;
+    
+}
+.imagem{
+    left: 7%;
+    display: inline-block;
+    position: relative;
+    
+    
+}
+
+#imagem1 {
+    position: relative;
+    display: inline-block;
+    width: 430px;
+
+}
+
+#main_title {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.descricao{
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+    line-height: 25px;
+}
+
+#MVV {
+    background-color: black;
+    height: 800px;
+}
+
+#somos{
+    display: block;
+    position: relative;
+    width: 800px;
+    top: 5%;
+    left: 20%;
+    font-size: 60px;
+    text-align: center;
+    
+}
+
+#cards {
+    position: relative;
+    display: inline-block;
+    height: 400px;
+    width: 950px;
+    top: 15%;
+    left: 15%;
+}
+
+.card_space {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(66, 66, 66);
+    margin: 5px;
+    border-radius: 8%;
+    text-align: center;
+    height: 325px;
+    width: 300px;
+
+}
+
+.card_text  {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    height: 100px;
+    width: 285px;
+}
+
+.card_text {
+    display: flex;
+    line-height: 18px;
+    font-size: 16px;
+}
+
+.card_content {
+    padding-top: 10%;
+}
+
+.card_content > img {
+    height: 90px;
+    width: 90px;
+    padding-bottom: 15px;
+}
+
+.card_content > h1 {
+    padding-bottom: 15px;
+}
+
+#visita {
+    height: 470px;
+}
+
+#conhecer {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    top: 30px;
+}
+
+#iframe {
+    position: relative;
+    top: 70px;
+}
+
+#iframe_position {
+    position: relative;
+    left: 2px;
+    
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+

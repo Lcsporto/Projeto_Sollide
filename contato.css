@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+}
+
+#btn {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    height: 60px ;
+    width: 60px;
+    right: 25px;
+    bottom: 20px;
+    border-radius: 100%;
+}
+
+#btn > img {
+    position: relative;
+    height: 55px;
+    width: 55px;
+    left:2px;
+    top: 2px;
+    
+}
+
+#principal {
+    background-color: grey;
+    display: block;
+    box-sizing: 100%;
+    height: 100vh;
+    width: 98.75vw;
+    background-image: url(./imagens/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nome_pagina {
+    font-size: 40px;
+    font-weight: bolder;
+    display: inline;
+    padding-left: 5%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#lista_menu {
+    display:inline-block;
+    position: flex;
+    padding-left: 35%;
+    padding-top: 50px;
+}
+
+.nome_menu:hover {
+    color: darkgreen;
+    transition: .4s ;
+}
+
+.menu {
+    list-style: none;
+    display: inline;
+    margin: 20px;
+    font-size: 18px;    
+}
+
+
+#mensagem_inicial {
+    display: block;
+    position: relative;
+    top: 22%;
+    padding-left: 5%;
+}
+
+.ciente {
+    color: darkgreen;
+}
+
+
+.titulo {
+    font-size: 70px;
+    
+}
+
+#sub_titulo {
+    position: relative;
+    display: inline-block;
+    left: 16%;
+    font-size: 50px;
+
+}
+
+.intro {
+    padding: 10px;
+    font-size: 25px;
+}
+
+section{
+    display: block;
+    background-color: rgb(66, 66, 66);
+    position: flex;
+    width: 98.75vw;
+    height: 100vh
+}
+
+#formulario {
+    display: block;
+    position: relative;
+    height: 400px;
+    width: 650px;
+    top: 15%;
+    left: 80px;
+}
+
+.entrada {
+    width: 650px;
+    line-height: 30px;
+}
+
+#area_mensagem {
+    width: 650px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.area_formulario {
+    padding-top: 10px;
+}
+
+#mensagem_contato {
+    position: relative;
+    display: inline-block;
+    width: 650px;
+    left: 80px;
+    top: 10%;
+}
+
+#mensagem_contato > h1 {
+    text-align: center;
+    color: #008000;
+    font-size: 28px;
+}
+
+#mensagem_contato > p {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+button{
+	background-color:#008000;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+    width: 650px;
+    font-size: 15px;
+}
+
+button:hover{
+	background-color: transparent;
+	border: 2px solid #008000;
+	cursor: pointer;
+}
+
+#area_formulario {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    width: 800px;
+    height: 600px;
+    border-radius: 1%;
+    top: 5%;
+    left: 22%;
+
+}
+
+#visita {
+    height: 470px;
+    background-color: black;
+}
+
+#conhecer {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    top: 30px;
+}
+
+#iframe {
+    position: relative;
+    top: 70px;
+}
+
+#iframe_position {
+    position: relative;
+    left: 2px;
+    
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+    padding: 5px;
+}   
