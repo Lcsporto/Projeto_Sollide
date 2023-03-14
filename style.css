@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 body{
     color: white;
 }
@@ -115,6 +116,22 @@ section{
     height: 100vh
 
 }
+
+#quem_somos{
+    background-image: url(./imagens/Projetos/telhado\ de\ fundo\ editado\(3\).jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.background_image{
+    background-image: url(./imagens/Projetos/telhado\ de\ fundo.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 #artigo {
     width: 500px;
