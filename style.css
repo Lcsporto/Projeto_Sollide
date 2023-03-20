@@ -182,7 +182,7 @@ section{
     display: block;
     position: relative;
     width: 800px;
-    top: 5%;
+    top: 10%;
     left: 20%;
     font-size: 60px;
     text-align: center;
@@ -194,7 +194,7 @@ section{
     display: inline-block;
     height: 400px;
     width: 950px;
-    top: 15%;
+    top: 25%;
     left: 15%;
 }
 
