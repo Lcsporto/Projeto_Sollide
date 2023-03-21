@@ -175,7 +175,8 @@ section{
 
 #MVV {
     background-color: black;
-    height: 800px;
+    /*height: 800px;*/
+    background-size: 100%;
 }
 
 #somos{
