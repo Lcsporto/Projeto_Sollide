@@ -269,3 +269,7 @@ footer {
 }
 
 
+@media (min-width: 400px){
+    #lista_menu {padding-left:;}
+}
+
