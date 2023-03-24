@@ -106,7 +106,7 @@ a{
 
 section{
     display: block;
-    background-color: rgb(66, 66, 66);
+    background-color: black;
     position: flex;
     width: 98.75vw;
     height: 100vh
@@ -133,7 +133,7 @@ section{
 .card_space {
     position: relative;
     display: inline-block;
-    background-color: black;
+    background-color: rgb(66, 66, 66);;
     margin: 5px;
     border-radius: 8%;
     text-align: center;
@@ -156,21 +156,38 @@ section{
     font-size: 16px;
 }
 
+.card_text > p {
+    padding-bottom: 25px;
+}
+
 .card_content {
     padding-top: 10%;
 }
 
-.card_content > img {
+
+.card_content > #img_compra {
+    height: 90px;
+    width: 90px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.card_content > #img_instalacao  {
+    padding-top: 10px;
     height: 90px;
     width: 90px;
     padding-bottom: 15px;
 }
 
-.card_content > h1 {
+.card_content > #img_manutencao {
+    padding-top: 10px;
+    height: 90px;
+    width: 70px;
     padding-bottom: 15px;
 }
 
 #visita {
+    background-color: rgba(26, 25, 25, 0.849);
     height: 470px;
 }
 
@@ -200,18 +217,20 @@ footer {
 }   
 
 button{
-	background-color:#008000;
+    position: flex;
+	background-color:#fc7a00;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
 	font-weight: bold;
-	padding: 13px 30px;
+	padding: 13px 40px;
 	border-radius: 30px;
 	transition: .4s; 
 }
 
+
 button:hover{
 	background-color: transparent;
-	border: 2px solid #008000;
+	border: 2px solid #fc7a00;
 	cursor: pointer;
 }

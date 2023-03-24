@@ -229,9 +229,22 @@ section{
     padding-top: 10%;
 }
 
-.card_content > img {
+
+.img_missao {
     height: 90px;
     width: 90px;
+    padding-bottom: 15px;
+}
+
+.img_visao {
+    height: 70px;
+    width: 95px;
+    padding-bottom: 15px;
+}
+
+.img_valores {
+    height: 90px;
+    width: 80px;
     padding-bottom: 15px;
 }
 
@@ -267,9 +280,3 @@ footer {
     text-align: center;
     padding: 5px;
 }
-
-
-@media (min-width: 400px){
-    #lista_menu {padding-left:;}
-}
-
