@@ -104,13 +104,16 @@ a{
     font-size: 25px;
 }
 
+#carousel{
+    background-color: gray;
+}
+
 section{
     display: block;
     background-color: black;
     position: flex;
     width: 98.75vw;
     height: 100vh
-
 }
 
 #sobre {
