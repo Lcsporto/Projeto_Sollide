@@ -104,15 +104,26 @@ a{
     font-size: 25px;
 }
 
-#Slider{
+#trabalhos  {
     background-color:aqua;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    
 }
 
 section{
     display: block;
     background-color: black;
     position: flex;
-    width: 98.75vw;
+    width: 100%;
     height: 100vh
 }
 

@@ -19,4 +19,3 @@ btn2.addEventListener('click', () => {
 btn3.addEventListener('click', () => {
     openInNewTab(url)
 })
-
